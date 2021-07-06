@@ -3,6 +3,9 @@ from sklearn.decomposition import NMF
 from sklearn.feature_extraction.text import TfidfVectorizer
 import nltk
 import re
+
+os.system('pip install spacy')
+
 import spacy
 import numpy as np
 import matplotlib.pyplot as plt
