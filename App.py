@@ -75,7 +75,6 @@ def miTokenizador(texto):
 
 
 
-#df.to_excel('ciper_contTopicos.xlsx',index=False)
 
 def resumenNoticias(df):
     
@@ -91,36 +90,6 @@ def resumenNoticias(df):
     return fig
 
 
-
-'''
-
-st.markdown("# Prototipo de Clasificador de Noticias")
-st.markdown("### Basado en noticias históricas de CIPER (R)")
-
-st.markdown("## 1) Evolución histórica")
-
-def file_selector(folder_path='./datos'):
-    filenames = os.listdir(folder_path)
-    selected_filename = st.selectbox('Elige un archivo EXCEL que contiene tus noticias', filenames)
-    return os.path.join(folder_path, selected_filename)
-
-filename = file_selector()
-st.write('Elegiste `%s`' % filename)
-
-if filename:
-    
-    df_conteo = pd.read_excel(filename)
-
-    df_conteo = df_conteo[~df_conteo.Text.isna()].reset_index(drop=True)
-    
-    historico = df_conteo.groupby([pd.Grouper(key='time', freq='M'), 'Tópico preponderante'])['URL'].nunique().reset_index()
-    
-    historico.sort_values(by=['time', 'Tópico preponderante'], inplace=True)
-
-    historico.rename(columns={'URL': '# Noticias'}, inplace=True)
-
-    st.plotly_chart(resumenNoticias(historico))
-'''
     
 diccionario_topicos = {0:'Agenda legislativa',
                        1:'Sanitario',
