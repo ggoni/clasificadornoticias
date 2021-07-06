@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.decomposition import NMF
 from sklearn.feature_extraction.text import TfidfVectorizer
-from nltk.corpus import stopwords
+import nltk
 import re
 import spacy
 import numpy as np
@@ -18,8 +18,6 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 
-spanish_stopwords = stopwords.words('spanish')
-nlp = spacy.load('es_core_news_lg')
 
 nuevaNoticia = None
 
