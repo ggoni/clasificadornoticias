@@ -14,11 +14,12 @@ import os
 
 import streamlit as st
 
+os.system('python -m spacy download es_core_news_sm')
 
 import plotly.express as px
 import plotly.graph_objects as go
 
-nlp = spacy.load('es_core_news_lg')
+nlp = spacy.load('es_core_news_sm')
 
 nuevaNoticia = None
 
