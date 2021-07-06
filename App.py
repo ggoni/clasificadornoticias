@@ -18,6 +18,7 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 
+nlp = spacy.load('es_core_news_lg')
 
 nuevaNoticia = None
 
