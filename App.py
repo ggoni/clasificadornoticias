@@ -1,3 +1,5 @@
+!pip3 install sklearn
+
 import pandas as pd
 from sklearn.decomposition import NMF
 from sklearn.feature_extraction.text import TfidfVectorizer
