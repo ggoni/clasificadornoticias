@@ -15,8 +15,7 @@ import os
 import streamlit as st
 
 
-os.system('pip install scikit-learn')
-os.system('pip install sklearn')
+os.system('nltk.download('stopwords')')
 
 import plotly.express as px
 import plotly.graph_objects as go
