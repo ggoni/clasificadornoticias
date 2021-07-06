@@ -179,6 +179,7 @@ seaborn @ file:///home/conda/feedstock_root/build_artifacts/seaborn-split_161183
 Send2Trash==1.5.0
 shap==0.38.1
 six==1.15.0
+sklearn
 slicer==0.0.7
 smart-open @ file:///home/conda/feedstock_root/build_artifacts/smart_open_1613384445996/work
 smmap @ file:///home/conda/feedstock_root/build_artifacts/smmap_1611376390914/work
