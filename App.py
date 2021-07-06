@@ -1,4 +1,4 @@
-!pip3 install sklearn
+pip install sklearn
 
 import pandas as pd
 from sklearn.decomposition import NMF
