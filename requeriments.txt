@@ -172,7 +172,7 @@ requests-oauthlib @ file:///home/conda/feedstock_root/build_artifacts/requests-o
 retrying==1.3.3
 rsa @ file:///home/conda/feedstock_root/build_artifacts/rsa_1613425487541/work
 s3transfer @ file:///home/conda/feedstock_root/build_artifacts/s3transfer_1610404472418/work
-scikit-learn==0.23.2
+scikit-learn
 scikit-plot==0.3.7
 scipy @ file:///Users/runner/miniforge3/conda-bld/scipy_1594922066025/work
 seaborn @ file:///home/conda/feedstock_root/build_artifacts/seaborn-split_1611834504644/work
