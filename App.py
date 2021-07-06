@@ -3,6 +3,8 @@ from sklearn.decomposition import NMF
 from sklearn.feature_extraction.text import TfidfVectorizer
 import nltk
 import re
+import os
+
 
 os.system('pip install spacy')
 
@@ -13,7 +15,6 @@ import seaborn as sns
 plt.style.use('seaborn-poster')
 import pickle
 import joblib
-import os
 
 import streamlit as st
 
