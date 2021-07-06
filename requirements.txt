@@ -3,7 +3,6 @@ matplotlib
 nltk
 numpy == 1.20.1
 plotly
-re
 scikit-learn
 seaborn
 sklearn
