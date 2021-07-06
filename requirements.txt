@@ -1,7 +1,7 @@
 joblib
 matplotlib
 nltk
-numpy ==1.20
+numpy == 1.20.1
 os
 plotly
 pickle
